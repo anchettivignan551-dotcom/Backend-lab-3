@@ -2,13 +2,14 @@
 
 ## Project Details
 
-- **Name:** [Your Name]
-- **Registration Number:** [Your Reg Number]
-- **Section:** [Your Section]
-- **Course:** Backend Development Fundamentals
+- **Name:** Anchetti Vignan
+- **Registration Number:** 252U1R5007
+- **Section:** S-10
+- **Department:** Artificial Intelligence and Data Engineering
+- **University:** Aurora Higher Education and Research Academy
+- **Course:** Backend Development Fundamentals (BDF)
 - **Lab:** Lab 3 – REST API, Query Parameters, Validation and Debugging
-- **Faculty:** Joel Prashanth D
-- **Institution:** Aurora Deemed to be University
+- **Faculty:** Sai Shiva Teja Sir
 
 ## Deployment URL
 
