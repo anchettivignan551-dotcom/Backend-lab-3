@@ -13,8 +13,8 @@
 
 ## Deployment URL
 
-- **Render Live URL:** [https://lab-3-8m9a.onrender.com/books](https://lab-3-8m9a.onrender.com/books)
-- *(Note: You can also deploy your own GitHub repository directly to Render following the instructions below).*
+- **Render Live URL:** [https://backend-lab-3-37gu.onrender.com/books](https://backend-lab-3-37gu.onrender.com/books)
+- **Primary Service URL:** [https://backend-lab-3-37gu.onrender.com](https://backend-lab-3-37gu.onrender.com)
 
 ---
 
