@@ -432,6 +432,11 @@ app.delete("/books/:bookId", async (req, res) => {
     }
 });
 
+// Root route: redirect to /books
+app.get("/", (req, res) => {
+    res.redirect("/books");
+});
+
 // Unknown routes
 app.use((req, res) => {
     res.status(404).json({
