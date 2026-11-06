@@ -13,8 +13,7 @@
 
 ## Deployment URL
 
-- **Render Live URL:** [https://backend-lab-3-37gu.onrender.com/books](https://backend-lab-3-37gu.onrender.com/books)
-- **Primary Service URL:** [https://backend-lab-3-37gu.onrender.com](https://backend-lab-3-37gu.onrender.com)
+**Render URL:** https://backend-lab-3-37gu.onrender.com/books
 
 ---
 
