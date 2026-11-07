@@ -60,7 +60,8 @@ Backend lab 3/
     ├── POST Successful Request.png
     ├── POST Validation Error.png
     ├── PUT Update Request.png
-    └── DELETE Request.png
+    ├── DELETE Request.png
+    └── Test Invalid ID.png
 ```
 
 ## Installation and Setup
@@ -216,46 +217,49 @@ Expected status code: **200 OK**
 | 404 | Book or route not found |
 | 500 | Internal server error |
 
-## Screenshots
+## 📸 Screenshots Evidence
 
-### 1. Render Deployment
+### 1. Render Cloud Deployment
 ![Render Deployment](screenshots/render%20deployment.png)
 
-### 2. GET All Books
+### 2. GET All Books (`GET /books`)
 ![GET All Books](screenshots/GET%20All%20Books.png)
 
-### 3. GET Book by ID
+### 3. GET Book by ID (`GET /books/1`)
 ![GET Book by ID](screenshots/GET%20Book%20by%20ID.png)
 
-### 4. Search Books
+### 4. Search Books (`GET /books?search_q=The`)
 ![Search Books](screenshots/Search%20Books.png)
 
-### 5. Sorting Ascending
+### 5. Sorting Ascending (`GET /books?order_by=price&order=ASC`)
 ![Sorting Ascending](screenshots/Sorting%20Ascending.png)
 
-### 6. Sorting Descending
+### 6. Sorting Descending (`GET /books?order_by=price&order=DESC`)
 ![Sorting Descending](screenshots/Sorting%20Descending.png)
 
-### 7. Pagination
+### 7. Pagination (`GET /books?limit=5&offset=0`)
 ![Pagination](screenshots/Pagination.png)
 
-### 8. Price Filtering
+### 8. Price Filtering (`GET /books?min_price=200&max_price=350`)
 ![Price Filtering](screenshots/Price%20Filtering.png)
 
-### 9. Combined Query
+### 9. Combined Query (`Search + Filter + Sort + Pagination`)
 ![Combined Query](screenshots/Combined%20Query.png)
 
-### 10. POST Successful Request
+### 10. POST Successful Request (`201 Created`)
 ![POST Successful Request](screenshots/POST%20Successful%20Request.png)
 
-### 11. POST Validation Error
+### 11. POST Validation Error (`400 Bad Request`)
 ![POST Validation Error](screenshots/POST%20Validation%20Error.png)
 
-### 12. PUT Update Request
+### 12. PUT Update Request (`200 OK`)
 ![PUT Update Request](screenshots/PUT%20Update%20Request.png)
 
-### 13. DELETE Request
+### 13. DELETE Request (`200 OK`)
 ![DELETE Request](screenshots/DELETE%20Request.png)
+
+### 14. Test Invalid ID and Missing Records (`404 Not Found`)
+![Test Invalid ID](screenshots/Test%20Invalid%20ID.png)
 
 ## Debugging Exercise
 
